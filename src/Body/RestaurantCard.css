@@ -1,0 +1,83 @@
+
+.restaurant-card {
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 300px;
+    margin: 10px;
+    position: relative;
+  }
+  
+  .restaurant-card:hover {
+    transform: scale(1.05);
+  }
+  
+ 
+  .image-container {
+    position: relative;
+  }
+  
+  .restaurant-image {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+  }
+  
+  .discount-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+
+  .restaurant-details {
+    padding: 15px;
+  }
+  
+  .restaurant-name {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .restaurant-cuisines {
+    color: #888;
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .restaurant-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .rating {
+    background-color: #48c479;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .low-rating {
+    background-color: #ff4d4d;
+  }
+  
+  .cost-for-two {
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  

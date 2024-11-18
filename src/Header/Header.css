@@ -1,0 +1,89 @@
+/* Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-left: 10em;
+}
+
+.menu-item {
+  margin-left: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.dropdown-icon {
+  margin-left: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 10px;
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-right: 60px;
+}
+
+.nav-item:hover {
+  color: #ff6f00;
+}
+
+.new-badge {
+  background-color: #ff6f00;
+  color: white;
+  font-size: 10px;
+  padding: 2px 4px;
+  border-radius: 3px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+}
+
+.cart-icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+}
+
+.sign-in {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: #35312f;
+  cursor: pointer;
+  padding: 10px 20px;
+  
+  border-radius: 6px;
+  transition: color 0.3s ease;
+}
+
+.sign-in:hover {
+  color: #ff7a33;
+ 
+}

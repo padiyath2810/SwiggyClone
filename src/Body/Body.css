@@ -1,0 +1,109 @@
+.body-container {
+    background-color: #f9f9f9;
+    padding: 30px 0;
+    text-align: center;
+    min-height: 100vh;
+  }
+  
+  .filter {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center; /* Center items */
+    gap: 10px; /* Add some spacing between input and button */
+  }
+  
+  .search-box {
+    font-size: 18px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 25px; /* Match the button's border radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+    outline: none; /* Remove default outline */
+  }
+  
+  .search-box:focus {
+    border-color: #ff6f61; /* Highlight border on focus */
+  }
+  
+  .filter-btn {
+    background-color: #ff6f61;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .filter-btn:hover {
+    background-color: #ff4b3e;
+    transform: translateY(-2px);
+  }
+  
+  .filter-btn:active {
+    transform: scale(0.98);
+  }
+  
+  .resContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0 20px;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  
+  .restaurant-card {
+    flex: 1 1 21%;
+    max-width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .restaurant-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 1200px) {
+    .restaurant-card {
+      flex: 1 1 45%; /* 2 cards per row for medium-sized screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .restaurant-card {
+      flex: 1 1 100%; /* 1 card per row for small screens */
+    }
+  }
+  
+
+  .search-button {
+    background-color: #ff6f61; 
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 25px; 
+    cursor: pointer; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    height: 46px;
+  }
+  
+  .search-button:hover {
+    background-color: #ff4b3e; 
+    transform: translateY(-2px); 
+  }
+  
+  .search-button:active {
+    transform: scale(0.98);
+  }
+  
